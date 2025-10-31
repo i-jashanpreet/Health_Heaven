@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.login{
+    width: 400px;
+    height: 400px;
+    margin-left: 550px;
+    background-color:white;
+    padding-top: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    border: solid #ae2021 4px;
+    text-align: center;}
+.signin{
+    width:200px;
+    height:30px;
+    font-weight: 900;
+    font-size: 16px;
+    color:white;
+    background-color: #ae2021;
+    border:solid #ae2021 1px;
+    border-radius:50px;
+}
