@@ -4,7 +4,8 @@ body {
 }
 .announcement-bar {
   width: 100%;
-  background:lightgray;
+  background-color: white;
+  border-bottom: 2px solid #ae2021 ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +14,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
+
 }
 
 .announcement-item {
@@ -23,6 +25,7 @@ body {
   margin: 7px;
   padding: 2px;
   font-size: 16px;
+
 }
 .announcement-item:hover {
   text-decoration: underline;
@@ -30,15 +33,16 @@ body {
 }
 
 .header_row {
-  position: sticky;
   padding-top: 2px;
-  background-color: lavender;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
   padding: 3px;
-  height:50px
+  height:50px;
+
+  
 }
 
 .logo img {
@@ -55,18 +59,24 @@ body {
   padding: 0;
 }
 
-.items {
-  font-family: poppins, sans-serif;
+ .items {
+  font-family: Poppins, sans-serif;
   font-weight: 900;
-  color: black;
   cursor: pointer;
-  transition: color 0.3s;
 }
 
-.items :hover {
-  color: orangered;
-  text-decoration: underline;
+.items a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block; 
 }
+
+.items a:hover {
+  color: #ae2021;
+  transform: scale(1.25); 
+}
+
 
 .right-section {
   display: flex;
@@ -78,7 +88,7 @@ body {
   display: flex;
   align-items: center;
   width: 18vw;
-  border: 2px solid black;
+  border: 2px solid #ae2021;
   border-radius: 25px;
   overflow: hidden;
   background-color: white;
@@ -93,18 +103,17 @@ body {
 }
 
 .search-button {
-  background-color: black;
+  background: linear-gradient(to top, #ae2021, #f28b4a);
   color: white;
   border: none;
   padding: 8px 18px;
   font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   font-family: poppins, sans-serif;
-}
-
-.search-button:hover {
-  background-color: orangered;
+  border-radius: 20px;
+  font-weight: 700;
+  width: 100px;
 }
 
 .auth-buttons {
@@ -112,9 +121,9 @@ body {
   gap: 10px;
 }
 
-.login-btn,
+
 .register-btn {
-  border: 2px solid black;
+  border: 2px solid #ae2021;
   background-color: transparent;
   padding: 8px 16px;
   font-size: 14px;
@@ -123,14 +132,28 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
-.login-btn:hover,
-.register-btn:hover {
-  background-color: orangered;
-  color: white;
-  border-color: orangered;
+.register-btn a{
+    color:#ae2021 ;
+    text-decoration: none;
+    font-weight: 550;}
+.login-btn{
+  border: none;
+  background: linear-gradient(to right, #ae2021, #f28b4a);
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 25px;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-
+.login-btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.login-btn:hover{
+    transform: scale(1.1);
+}
 .section{
   display: flex;
   justify-content: space-between;
@@ -483,6 +506,11 @@ body {
   font-size: 14px;
   color: #555;
   margin-top: 5px;
+}
+.footer-column li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 
