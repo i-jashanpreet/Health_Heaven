@@ -435,7 +435,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   margin: 6px 0 18px;
-  color: var(--heading-underline);
+  color: black;
   display: inline-block;
   padding-bottom: 6px;
   line-height: 1.1;
@@ -454,7 +454,7 @@ body {
 
 .footer-list li{
   font-size: 20px;          
-  color: var(--muted);
+  color: black;
   margin: 14px 0;
   line-height: 1.1;
 }
