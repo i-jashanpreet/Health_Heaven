@@ -22,10 +22,10 @@
     <span class="logo">
       <img src="assets/arjan_logo.jpeg" alt="Health Heaven Logo" style="width: 60px; margin-top: -36px; height: 60px" />
     </span>
-    <span style="font-size: 28px; margin-left: -190px; color: #ae2021">
+    <span style="font-size: 28px; margin-left: -140px; color: #ae2021">
       <h4>Health</h4>
     </span>
-    <span style="font-size: 28px; margin-left: -195px; color: #f28b4a">
+    <span style="font-size: 28px; margin-left: -135px; color: #f28b4a">
       <h4>Heaven</h4>
     </span>
 
@@ -36,6 +36,7 @@
       <li class="items"><a href="product.html">Products</a></li>
       <li class="items"><a href="policies.html">Policies</a></li>
       <li class="items"><a href="appointement.html">Appointment</a></li>
+      <li class="items"><a href="calculator.html">Calculators</a></li>
     </ul>
 
     <div class="right-section">
@@ -48,11 +49,12 @@
         <button class="register-btn">
           <a href="login.html">Register</a>
         </button>
+
       </div>
     </div>
   </div>
   <div style="
-        background-color: #341a56;
+        background: linear-gradient(to right, #ae2021, #f28b4a);
         width: 100%;
         margin-left: 0px;
         height: 80px;
@@ -61,46 +63,63 @@
     <h1 style="
           text-align: left;
           margin-left: 15px;
-          color: orangered;
-          padding-top: 20px;
+          color: white;
+          padding-top: 30px;
         ">
-      Halloween Specials 🎃
+      Your Health Deserves the Best Care
     </h1>
   </div>
   <div style="
-        background-color: #341a56;
         width: 100%;
         margin-left: 0px;
         margin-top: -20px;
         margin-bottom: -20px;
       ">
-    <h2 style="margin-left: 15px; color: white">
-      👻 Boo! Scary-good deals just landed — shop before they vanish!
-    </h2>
+
   </div>
   <div>
     <div class="section">
-      <span class="sec1"><img src="assets/halowen2.avif" alt="" style="width: 300px; height: 400px" /></span>
-      <span class="sec3"><img src="assets/halowen3.avif" alt="" style="width: 300px; height: 400px" /></span>
-      <span class="sec2"><img src="assets/haloweenimage.avif" alt="" style="width: 600px; height: 400px" /></span>
+      <span class="sec1"><img src="assets/hospital 2.png" alt="" style="width: 300px; height: 400px" /></span>
+      <span class="sec3"><img src="assets/hospital 3.jpg" alt="" style="width: 300px; height: 400px" /></span>
+      <span class="sec2"><img src="assets/hospital 1.jpg" alt="" style="width: 600px; height: 400px" /></span>
     </div>
-    <h2 style="margin-left: 15px">
-      Plus 25% OFF all Halloween Candy, Décor & more
-    </h2>
-    <div class="Products">
-      <div class="round">
-        <span class="rounds"><img src="assets/pr3.avif" alt="" style="width: 300px; height: 300px" /></span>
-        <span class="rounds"><img src="assets/pr1.avif" alt="" style="width: 300px; height: 300px" /></span>
-        <span class="rounds"><img src="assets/pr2.avif" alt="" style="width: 300px; height: 300px" /></span>
-        <span class="rounds"><img src="assets/pr4.avif" alt="" style="width: 300px; height: 300px" /></span>
-      </div>
-      <div class="text">
-        <span>Indoor Decor</span>
-        <span style="margin-left: 40px">Candy & Treats</span>
-        <span style="margin-left: 40px; margin-right: 0px">Outdoor Decor</span>
-        <span style="margin-left: 0px">All Halloween Deals</span>
-      </div>
+
+    <div class="features-row">
+
+  <div class="feature-card soft-green">
+    <div class="text-box">
+      <h2>Book an Appointment</h2>
+      <p>With country's leading experts</p>
     </div>
+    
+  </div>
+
+  <div class="feature-card soft-blue">
+    <div class="text-box">
+      <h2>Hospitals</h2>
+      <p>Health needs under one roof</p>
+    </div>
+
+  </div>
+
+  <div class="feature-card soft-purple">
+    <div class="text-box">
+      <h2>Specialities</h2>
+      <p>Our expertise in Healthcare</p>
+    </div>
+   
+  </div>
+
+  <div class="feature-card soft-orange">
+    <div class="text-box">
+      <h2>Doctors</h2>
+      <p>Top experts for your health</p>
+    </div>
+ 
+  </div>
+
+</div>
+
     <h2 style="margin-left: 15px">Staying healthy is Key</h2>
 
     <div class="offers-section">
@@ -298,6 +317,27 @@
 
     <div class="footer-copy">© 2025 HealthCare Co. All rights reserved.</div>
   </footer>
+
+
+<div id="customAlert" class="alert-overlay">
+    <div class="alert-box">
+        <h2>Welcome to <span>HealthHeaven</span> ❤️</h2>
+        <p>Your trusted partner for premium healthcare, medicines & wellness.</p>
+        <button id="closeAlert">Continue</button>
+    </div>
+</div>
+
+<script>
+   
+    window.onload = function () {
+        document.getElementById("customAlert").style.display = "flex";
+    };
+    document.getElementById("closeAlert").onclick = function () {
+        document.getElementById("customAlert").style.display = "none";
+    };
+</script>
+
+
 </body>
 
 </html>

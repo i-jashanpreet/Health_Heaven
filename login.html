@@ -10,7 +10,7 @@
     <header class="header">
         <img style="width: 300px;height:200px;margin-top: 10px;" src="assets/whitelogo.png" alt="">
     </header>
-    <div style="width: 100vw; background-color: whitesmoke;margin-top: 20px;">
+    <div class="main" style="width: 100vw;margin-top: 20px;">
     <div class="login">
         <h2 style="margin-top: 20px;font-size: 32px;">Login to Your Account</h2>
         <br>
@@ -33,7 +33,7 @@
         <span style="color: blue;text-decoration: underline;cursor: pointer;">Chat now</span>
     </div>
     </div>
-    <div>
+    <div >
         <p style="text-align: center;margin-top: 50px;font-size: 20px;font-weight: 700;">
             Notice of Privacy Practices | Terms of Use | Online Privacy & Security
         </p>
@@ -42,5 +42,32 @@
         </p>
     </div>
     
+
+    <script>
+document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    showCustomAlert("🎉 Login Successful! <br> Welcome to <b>HealthHeaven</b>.");
+});
+
+function showCustomAlert(message) {
+    const alertBox = document.createElement("div");
+    alertBox.className = "custom-alert";
+    alertBox.innerHTML = `
+        <div class="alert-content">
+            <span class="close-alert">&times;</span>
+            <p>${message}</p>
+        </div>
+    `;
+    document.body.appendChild(alertBox);
+
+    document.querySelector(".close-alert").onclick = () => alertBox.remove();
+
+    setTimeout(() => {
+        alertBox.classList.add("show");
+    }, 10);
+}
+</script>
+
 </body>
 </html>

@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.announcement-bar {
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid #ae2021 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.announcement-item {
+  color:black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 7px;
+  padding: 2px;
+  font-size: 16px;
+
+}
+.announcement-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header_row {
+  padding-top: 2px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  padding: 3px;
+  height:50px;
+
+  
+}
+
+.logo img {
+  height: 50px;
+  object-fit: contain;
+  padding-top:45px
+}
+
+.nav-links {
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ .items {
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block; 
+}
+
+.items a:hover {
+  color: #ae2021;
+  transform: scale(1.25); 
+}
+
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 18vw;
+  border: 2px solid #ae2021;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-button {
+  background: linear-gradient(to top, #ae2021, #f28b4a);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: poppins, sans-serif;
+  border-radius: 20px;
+  font-weight: 700;
+  width: 100px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.register-btn {
+  border: 2px solid #ae2021;
+  background-color: transparent;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 25px;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.register-btn a{
+    color:#ae2021 ;
+    text-decoration: none;
+    font-weight: 550;}
+.login-btn{
+  border: none;
+  background: linear-gradient(to right, #ae2021, #f28b4a);
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 25px;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login-btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.login-btn:hover{
+    transform: scale(1.1);
+}
+
+.bmi-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.bmi-card, .bmi-table {
+    width: 550px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+
+.bmi-header {
+    background: linear-gradient(to right, #ae2021, #f28b4a);
+    padding: 20px;
+    text-align: center;
+}
+
+.bmi-header h2 {
+    color: white;
+    margin: 0;
+}
+
+
+.toggle-buttons {
+    display: flex;
+    margin: 20px;
+}
+
+.toggle-buttons button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ae2021;
+    background: white;
+    cursor: pointer;
+}
+
+.toggle-buttons .active {
+    background: #ae2021;
+    color: white;
+}
+
+
+label {
+    display: block;
+    font-size: 18px;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+select, input {
+    width: 95%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+
+.calculate-btn {
+    margin-top: 20px;
+    background: #ae2021;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.calculate-btn:hover {
+    background: #f28b4a;
+}
+
+
+.bmi-result {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #ae2021;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+
+.calorie-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.calorie-box {
+    width: 550px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.calorie-header {
+    background: linear-gradient(to right, #ae2021, #f28b4a);
+    padding: 25px 0;
+    text-align: center;
+}
+
+.calorie-header h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.calorie-content {
+    padding: 30px;
+}
+
+.calorie-content label {
+    font-weight: 700;
+    color: #222;
+    margin-top: 18px;
+    display: block;
+}
+
+.calorie-content input,
+.calorie-content select {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-top: 8px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.calorie-content input:focus,
+.calorie-content select:focus {
+    border-color: #ae2021;
+    box-shadow: 0 0 8px rgba(174,32,33,0.3);
+}
+
+.calorie-btn {
+    width: 100%;
+    margin-top: 25px;
+    padding: 16px;
+    background: #ae2021;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.calorie-btn:hover {
+    background: #8c1a1b;
+    transform: scale(1.02);
+}
+
+.calorie-result {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ae2021;
+}

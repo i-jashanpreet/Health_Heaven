@@ -17,7 +17,6 @@ body{
     background-color:white;
     padding-top: 20px;
     margin-top: 20px;
-
     border-radius: 10px;
     border: solid #ae2021 4px;
     text-align: center;}
@@ -31,3 +30,46 @@ body{
     border:solid #ae2021 1px;
     border-radius:50px;
 }
+
+.custom-alert {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    border-left: 6px solid #ae2021;
+    opacity: 0;
+    transition: 0.4s ease;
+    z-index: 9999;
+}
+
+.custom-alert.show {
+    top: 40px;
+    opacity: 1;
+}
+
+.alert-content {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.close-alert {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #ae2021;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
