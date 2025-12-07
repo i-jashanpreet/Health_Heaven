@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Health Heaven</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+
   <div class="announcement-bar">
-    <div class="announcement-item">
-      Extra 20% OFF $50+ sitewide* with code OCT20
-    </div>
-    <div class="announcement-item">Offer Ending Soon! Grab it Now!</div>
-    <div class="announcement-item">
-      20% off on all the items worth more than $50
+    <div class="announcement-content">
+      <div class="announcement-item">Extra 20% OFF $50+ sitewide* with code OCT20</div>
+      <div class="announcement-item">Offer Ending Soon! Grab it Now!</div>
+      <div class="announcement-item">20% off on all items worth more than $50</div>
     </div>
   </div>
-  <div class="header_row">
-    <span class="logo">
-      <img src="assets/arjan_logo.jpeg" alt="Health Heaven Logo" style="width: 60px; margin-top: -36px; height: 60px" />
-    </span>
-    <span style="font-size: 28px; margin-left: -140px; color: #ae2021">
-      <h4>Health</h4>
-    </span>
-    <span style="font-size: 28px; margin-left: -135px; color: #f28b4a">
-      <h4>Heaven</h4>
-    </span>
 
-    <ul class="nav-links" type="none">
-      <li class="items">
-        <a href="index.html" style="text-decoration: none">Home</a>
-      </li>
+  <div class="header_row">
+    <div class="brand-container">
+      <span class="logo">
+        <img src="assets/arjan_logo.jpeg" alt="Health Heaven Logo" />
+      </span>
+      <div class="brand-name">
+        <h4 class="text-red">Health</h4>
+        <h4 class="text-orange">Heaven</h4>
+      </div>
+    </div>
+
+    <ul class="nav-links">
+      <li class="items"><a href="index.html">Home</a></li>
       <li class="items"><a href="product.html">Products</a></li>
       <li class="items"><a href="policies.html">Policies</a></li>
       <li class="items"><a href="appointement.html">Appointment</a></li>
@@ -40,88 +36,58 @@
     </ul>
 
     <div class="right-section">
-      <span class="search-container">
+      <div class="search-container">
         <input type="text" placeholder="Search here ..." class="search-input" />
         <button class="search-button" type="submit">Search</button>
-      </span>
+      </div>
       <div class="auth-buttons">
-        <button class="login-btn"><a href="login.html">Login</a></button>
-        <button class="register-btn">
-          <a href="login.html">Register</a>
-        </button>
-
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="login.html" class="register-btn">Register</a>
       </div>
     </div>
   </div>
-  <div style="
-        background: linear-gradient(to right, #ae2021, #f28b4a);
-        width: 100%;
-        margin-left: 0px;
-        height: 80px;
-        margin-top: -18px;
-      ">
-    <h1 style="
-          text-align: left;
-          margin-left: 15px;
-          color: white;
-          padding-top: 30px;
-        ">
-      Your Health Deserves the Best Care
-    </h1>
-  </div>
-  <div style="
-        width: 100%;
-        margin-left: 0px;
-        margin-top: -20px;
-        margin-bottom: -20px;
-      ">
 
+  <div class="hero-banner">
+    <h1>Your Health Deserves the Best Care</h1>
   </div>
-  <div>
-    <div class="section">
-      <span class="sec1"><img src="assets/hospital 2.png" alt="" style="width: 300px; height: 400px" /></span>
-      <span class="sec3"><img src="assets/hospital 3.jpg" alt="" style="width: 300px; height: 400px" /></span>
-      <span class="sec2"><img src="assets/hospital 1.jpg" alt="" style="width: 600px; height: 400px" /></span>
+
+  <div class="hospital-gallery">
+    <div class="gallery-wrapper">
+      <img src="assets/hospital 2.png" alt="Hospital View 1" />
+      <img src="assets/hospital 3.jpg" alt="Hospital View 2" />
+      <img src="assets/hospital 1.jpg" alt="Hospital View 3" class="wide-img" />
     </div>
-
-    <div class="features-row">
-
-  <div class="feature-card soft-green">
-    <div class="text-box">
-      <h2>Book an Appointment</h2>
-      <p>With country's leading experts</p>
-    </div>
-    
   </div>
 
-  <div class="feature-card soft-blue">
-    <div class="text-box">
-      <h2>Hospitals</h2>
-      <p>Health needs under one roof</p>
+  <div class="features-row">
+    <div class="feature-card soft-green">
+      <div class="text-box">
+        <h2>Book an Appointment</h2>
+        <p>With country's leading experts</p>
+      </div>
     </div>
-
+    <div class="feature-card soft-blue">
+      <div class="text-box">
+        <h2>Hospitals</h2>
+        <p>Health needs under one roof</p>
+      </div>
+    </div>
+    <div class="feature-card soft-purple">
+      <div class="text-box">
+        <h2>Specialities</h2>
+        <p>Our expertise in Healthcare</p>
+      </div>
+    </div>
+    <div class="feature-card soft-orange">
+      <div class="text-box">
+        <h2>Doctors</h2>
+        <p>Top experts for your health</p>
+      </div>
+    </div>
   </div>
 
-  <div class="feature-card soft-purple">
-    <div class="text-box">
-      <h2>Specialities</h2>
-      <p>Our expertise in Healthcare</p>
-    </div>
-   
-  </div>
-
-  <div class="feature-card soft-orange">
-    <div class="text-box">
-      <h2>Doctors</h2>
-      <p>Top experts for your health</p>
-    </div>
- 
-  </div>
-
-</div>
-
-    <h2 style="margin-left: 15px">Staying healthy is Key</h2>
-
+  <div class="main-container">
+    <h2 class="section-title">Staying healthy is Key</h2>
     <div class="offers-section">
       <div class="offer-card">
         <img src="assets/health1.avif" alt="Flu Shot" class="offer-image" />
@@ -130,7 +96,6 @@
           <p>Walk in or schedule your flu shot today.</p>
         </div>
       </div>
-
       <div class="offer-card">
         <img src="assets/uti_test.avif" alt="UTI Test Kit" class="offer-image" />
         <div class="offer-info">
@@ -138,7 +103,6 @@
           <p>Feminine Care + shop more brands.</p>
         </div>
       </div>
-
       <div class="offer-card">
         <img src="assets/health3.webp" alt="COVID-19 Test" class="offer-image" />
         <div class="offer-info">
@@ -146,7 +110,6 @@
           <p>Testing and symptom relief when you need it.</p>
         </div>
       </div>
-
       <div class="offer-card">
         <img src="assets/health4.jpg" alt="DayQuil and NyQuil" class="offer-image" />
         <div class="offer-info">
@@ -157,48 +120,31 @@
     </div>
   </div>
 
-  <div style="margin-top: 20px; text-align: center; display: flex">
-    <video src="assets/healthcarevedio.mp4" controls style="
-          width: 600px;
-          margin-left: 200px;
-          margin-top: 20px;
-          margin-bottom: 20px;
-        " poster="assets/Gemini_Generated_Image_5xnxn85xnxn85xnx.png"></video>
-
-    <div style="width: 10px; height: 10px">
-      <p style="
-            padding: 5px;
-            font-family: poppins, sans-serif;
-            font-weight: 600;
-          ">
-        <img style="width: 500px; margin-left: 40px; margin-top: 30px" src="assets/whitelogo.png" alt="" />
-      </p>
+  <div class="video-section">
+    <video src="assets/healthcarevedio.mp4" controls poster="assets/Gemini_Generated_Image_5xnxn85xnxn85xnx.png"></video>
+    <div class="video-logo">
+      <img src="assets/whitelogo.png" alt="Logo" />
     </div>
   </div>
 
   <div class="product-section">
-    <h2 class="section-title" style="margin-left: 15px; margin: 15px">
-      High quality, low prices
-    </h2>
-
+    <h2 class="section-title">High quality, low prices</h2>
     <div class="product-container">
-      <div class="product-card1">
-        <img src="assets/low1.avif" alt="Nice Donut Shop Blend, Complete Home Bags, Roasted Almonds" />
+      <div class="product-card large-card">
+        <img src="assets/low1.avif" alt="Nice Donut Shop Blend" />
         <div class="product-text">
           <h3>Buy More Save More at Walgreens</h3>
         </div>
       </div>
-
       <div class="product-card">
-        <img src="assets/low2.avif" alt="Walgreens Super Soft Tissue" />
+        <img src="assets/low2.avif" alt="Walgreens Tissue" />
         <div class="product-text">
           <h3>4/$20 or $6.99 each</h3>
           <p>select Walgreens bathroom tissue</p>
         </div>
       </div>
-
       <div class="product-card">
-        <img src="assets/low3.avif" alt="Walgreens Baby Diapers" />
+        <img src="assets/low3.avif" alt="Walgreens Diapers" />
         <div class="product-text">
           <h3>3/$16 or $8.99 each</h3>
           <p>select Walgreens baby diapers</p>
@@ -208,68 +154,18 @@
   </div>
 
   <div class="featured-section">
-    <h2 style="text-align: left; margin: 15px">Featured categories</h2>
+    <h2 class="section-title">Featured categories</h2>
     <div class="categories">
-      <div class="category">
-        <img src="assets/p1.avif" alt="Halloween" />
-        <p>Halloween</p>
-      </div>
-      <div class="category">
-        <img src="assets/p2.avif" alt="Cough, Cold & Flu" />
-        <p>Cough, Cold & Flu</p>
-      </div>
-      <div class="category">
-        <img src="assets/p3.avif" alt="Grocery & Beverage" />
-        <p><a href="#">Grocery & Beverage</a></p>
-      </div>
-      <div class="category">
-        <img src="assets/p4.avif" alt="Vitamins" />
-        <p>Vitamins & Supplements</p>
-      </div>
-      <div class="category">
-        <img src="assets/p5.avif" alt="Personal Care" />
-        <p>Personal Care</p>
-      </div>
-      <div class="category">
-        <img src="assets/p6.avif" alt="Beauty" />
-        <p>Beauty</p>
-      </div>
-      <div class="category">
-        <img src="assets/p20.avif" alt="Household" />
-        <p>Household & Pet Essentials</p>
-      </div>
-      <div class="category">
-        <img src="assets/p8.avif" alt="Medicines" />
-        <p>Medicines & Treatments</p>
-      </div>
-      <div class="category">
-        <img src="assets/p9.avif" alt="Contact Lenses" />
-        <p>Contact Lenses</p>
-      </div>
-      <div class="category">
-        <img src="assets/p11.avif" alt="First Aid" />
-        <p>First Aid</p>
-      </div>
-      <div class="category">
-        <img src="assets/p12.avif" alt="" />
-        <p>Vaccines</p>
-      </div>
-      <div class="category">
-        <img src="assets/p13.avif" alt="Active Nutrition" />
-        <p>Toys & Games</p>
-      </div>
-      <div class="category">
-        <img src="assets/p14.avif" alt="Active Nutrition" />
-        <p>Active Nutrition</p>
-      </div>
-      <div class="category">
-        <img src="assets/p77.avif" alt="Active Nutrition" />
-        <p>Household Essentials</p>
-      </div>
+      <div class="category"><img src="assets/p1.avif" alt="Halloween" /><p>Halloween</p></div>
+      <div class="category"><img src="assets/p2.avif" alt="Cold Flu" /><p>Cough, Cold & Flu</p></div>
+      <div class="category"><img src="assets/p3.avif" alt="Grocery" /><p>Grocery & Beverage</p></div>
+      <div class="category"><img src="assets/p4.avif" alt="Vitamins" /><p>Vitamins</p></div>
+      <div class="category"><img src="assets/p5.avif" alt="Personal Care" /><p>Personal Care</p></div>
+      <div class="category"><img src="assets/p6.avif" alt="Beauty" /><p>Beauty</p></div>
     </div>
   </div>
 
-  <div style="width: 100%; background-color: lightgray">
+  <div class="site-footer-wrapper">
     <div class="site-footer">
       <div class="footer-inner">
         <div class="footer-column">
@@ -281,7 +177,6 @@
             <li>Contact Us</li>
           </ul>
         </div>
-
         <div class="footer-column">
           <h4 class="footer-heading">Company Information</h4>
           <ul class="footer-list">
@@ -289,17 +184,14 @@
             <li>Newsroom</li>
             <li>Impact</li>
             <li>Careers</li>
-            <li>California Transparency Act</li>
           </ul>
         </div>
-
         <div class="footer-column">
           <h4 class="footer-heading">Terms and Conditions</h4>
           <ul class="footer-list">
             <li>Offer Details</li>
             <li>Product Recalls</li>
             <li>Website Accessibility</li>
-            <li>Accessibility Notice</li>
           </ul>
         </div>
       </div>
@@ -310,34 +202,29 @@
     <div class="footer-links">
       <span>Notice of Privacy Practices</span>
       <span class="divider">|</span>
-      <span>Online Privacy & Security Policy</span>
+      <span>Privacy Policy</span>
       <span class="divider">|</span>
       <span>Terms of Use</span>
     </div>
-
     <div class="footer-copy">© 2025 HealthCare Co. All rights reserved.</div>
   </footer>
 
-
-<div id="customAlert" class="alert-overlay">
-    <div class="alert-box">
-        <h2>Welcome to <span>HealthHeaven</span> ❤️</h2>
-        <p>Your trusted partner for premium healthcare, medicines & wellness.</p>
-        <button id="closeAlert">Continue</button>
-    </div>
+  <div id="simple-alert">
+  <div class="alert-box">
+    <p>Welcome to HealthHeaven!</p>
+    <button onclick="closeAlert()">Continue</button>
+  </div>
 </div>
-
 <script>
-   
-    window.onload = function () {
-        document.getElementById("customAlert").style.display = "flex";
-    };
-    document.getElementById("closeAlert").onclick = function () {
-        document.getElementById("customAlert").style.display = "none";
-    };
+  window.onload = function () {
+    document.getElementById("simple-alert").style.display = "flex";
+  };
+
+  function closeAlert() {
+    document.getElementById("simple-alert").style.display = "none";
+  }
 </script>
 
 
 </body>
-
 </html>
